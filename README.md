@@ -4,9 +4,13 @@ This project implements a simple linear regression model from scratch in
 Python. It includes a `SimpleLinearRegressionWithGradientDescent` class that
 demonstrates training using gradient descent on a single feature dataset.
 
+
+
 ## Project layout
 
 - `data/Salary_dataset.csv` – sample dataset (years of experience vs salary).
+- `exploration/linearregressionfromscratch.ipynb` – Jupyter notebook used to
+  explore and prototype the regression solution.
 - `src/model_def.py` – model implementation.
 - `src/train.py` – script to load the data, train the model (with an
   80/20 split), evaluate on the hold-out set and save the trained model.
